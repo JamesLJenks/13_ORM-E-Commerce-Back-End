@@ -13,11 +13,11 @@ router.get('/', (req, res) => {
         model: Tag,
         through: ProductTag
       }
-    ],
+    ]
 
   }).then(allProducts => res.json(allProducts))
 
-  .catch(err => res.status(400).json(err))
+  .catch(err => {console.log(err); res.status(500).json(err)})
 });
 
 // get one product
@@ -34,7 +34,7 @@ router.get('/:id', (req, res) => {
         model: Tag,
         through: ProductTag
       }
-    ],
+    ]
 
   }).then(ProductTag => res.json(ProductTag))
 
