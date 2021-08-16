@@ -1,7 +1,7 @@
-# Unit 10: OOP Team Profile Generator
+# Unit 13: ORM E-Commerce Back-End
 ## Description
 
-The focus of this unit was Object Oriented Programming and unit testing. The objective for this project was to build a Node.js command-line application that takes in information about employees on a software engineering team, and with that information generates an HTML webpage that displays the user input data. One requirement of the application was to make use of Constructors and Classes to create the employee objects. Among these were the Employee, Manager, Engineer, and Intern classes. In addition to building the application, this project also required the use of Jest and Inquirer to conduct unit tests of every part of the code to ensure that it would pass each test. A demonstration of the node application and the testing is shown below.
+The task for this unit was to build out the back end for an e-commerce website using provided starter code and configuring a working Express.js API and Sequelize to interact with a MySQL database.
 
 ## Table of Contents
 
@@ -37,18 +37,27 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Screenshot
-This is a screenshot of the generated HTML webpage.
+This is a screenshot of t
 
 ![Team Generator HTML Webpage Screenshot](./assets/Team-Profile-Generator_Screenshot.png)
 
 ## Walkthrough Video
-![Team Generator Walkthrough Video](./assets/10_OOP-Team-Profile-Generator-Demo_Final.gif)
+The purpose of the walkthrough was to demonstrate that all technical acceptance criteria for the project were being met. This included:
+1. Creating the schema from the MySQL shell
+2. Seeding the database from the command line
+3. Starting the application's server
+4. Demonstrating all GET routes for all categories, all products, and all tags (tested in Postman)
+5. Demonstrating GET routes for a single category, a single product, and a single tag (tested in Postman)
+6. Demonstrating POST, PUT, and DELETE routes for categories, products, and tags (tested in Postman)
+
+![E-Commerce Back-End Walkthrough Video](./assets/10_OOP-Team-Profile-Generator-Demo_Final.gif)
 ## Credits
 - Trilogy Education Services, LLC: https://www.trilogyed.com/ 
-- Bootstrap: https://getbootstrap.com/
-- NodeJS: https://nodejs.org/en/
-- Jest: https://www.npmjs.com/package/jest
-- Inquirer: https://www.npmjs.com/package/inquirer
+- MySQL2: https://www.npmjs.com/package/mysql2
+- Express.js: https://expressjs.com/
+- Sequelize: https://www.npmjs.com/package/sequelize
+- dotenv: https://www.npmjs.com/package/dotenv
+- Postman: https://www.postman.com/
 
 ## License
 
