@@ -1,4 +1,5 @@
 # Unit 13: ORM E-Commerce Back-End
+
 ## Description
 
 The task for this unit was to build out the back end for an e-commerce website using provided starter code and configuring a working Express.js API and Sequelize to interact with a MySQL database.
@@ -7,7 +8,6 @@ The task for this unit was to build out the back end for an e-commerce website u
 
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Screenshot](#screenshot)
 - [Walkthrough Video](#walkthrough-video)
 - [Credits](#credits)
 - [License](#license)
@@ -36,13 +36,10 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Screenshot
-This is a screenshot of t
-
-![Team Generator HTML Webpage Screenshot](./assets/Team-Profile-Generator_Screenshot.png)
-
 ## Walkthrough Video
+
 The purpose of the walkthrough was to demonstrate that all technical acceptance criteria for the project were being met. This included:
+
 1. Creating the schema from the MySQL shell
 2. Seeding the database from the command line
 3. Starting the application's server
@@ -50,9 +47,12 @@ The purpose of the walkthrough was to demonstrate that all technical acceptance 
 5. Demonstrating GET routes for a single category, a single product, and a single tag (tested in Postman)
 6. Demonstrating POST, PUT, and DELETE routes for categories, products, and tags (tested in Postman)
 
-![E-Commerce Back-End Walkthrough Video](./assets/10_OOP-Team-Profile-Generator-Demo_Final.gif)
+E-Commerce Back-End Walkthrough Video <br>
+https://youtu.be/X-hve_xYoqg
+
 ## Credits
-- Trilogy Education Services, LLC: https://www.trilogyed.com/ 
+
+- Trilogy Education Services, LLC: https://www.trilogyed.com/
 - MySQL2: https://www.npmjs.com/package/mysql2
 - Express.js: https://expressjs.com/
 - Sequelize: https://www.npmjs.com/package/sequelize
